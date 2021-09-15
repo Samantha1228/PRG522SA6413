@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SAdbEntities-Web.config Connection String" description="SAdbEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.SAdbModel.csdl|res://*/Models.SAdbModel.ssdl|res://*/Models.SAdbModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=LAPTOP-D8M6FQVA\MSSQLSERVER2019;initial catalog=SAdb;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\nompu\\source\\repos\\PRG522SA6413\\PRG522SA6413\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SAdbEntities']/@connectionString" />
+  </parameter>
+  <parameter name="SAdbEntities1-Web.config Connection String" description="SAdbEntities1 Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\SAdb.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\nompu\\source\\repos\\PRG522SA6413\\PRG522SA6413\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SAdbEntities1']/@connectionString" />
+  </parameter>
+</parameters>

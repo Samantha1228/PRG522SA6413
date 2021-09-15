@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "Portfolio";
+}
+
+<div>
+    <div class="breadcrumbs overlay bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bread-inner">
+                        <!--Bread Menu-->
+                        <div class="bread-menu">
+                            <ul>
+                                <li>
+                                    <a href="/Home/Index">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/Account/Login">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Bread-title-->
+                        <div class="bread-title">
+                            <h2>Welcome Back</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="contact-us section-space">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-12">
+                    <div class="contact-form-area m-top-30">
+                        <h4>Use a local account to log in.</h4>
+                        <form action="/Account/Login" class="form-horizontal" method="post" role="form">
+                            <input name="__RequestVerificationToken" type="hidden" value="ftYMugFcmo94Ir20LUfZL8T-2rX3bovJQQbNf4JpcS3Juv_MiCTZQugEiZGzXGOsTlN2zw_co-38LX7jRGCLFdnye2-xyjPv_07zw35DB-o1">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <div class="icon">
+                                        <i class="fa fa-envelope">
+                                        </i>
+                                    </div>
+                                    <input class="form-control" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="Email" placeholder="Email Address" type="text" value="">
+                                    <span class="field-validation-valid text-danger" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+
+                                <div class="form-group">
+                                    <div class="icon">
+                                        <i class="fa fa-lock">
+                                        </i>
+                                    </div>
+                                    <input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" placeholder="Password" type="password">
+                                    <span class="field-validation-valid text-danger" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-12">
+                                    <input type="submit" value="Log in" class="bizwheel-btn theme-2">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <p>
+                                        Don't have an account? <a class="text-primary" href="/Account/Register?Length=7">Register</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <section id="socialLoginForm">
+                        <h4>Use another service to log in.</h4>
+                        <hr>
+                        <div>
+                            <p>
+                                There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkId=403804">this article</a>
+                                for details on setting up this ASP.NET application to support logging in via external services.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
